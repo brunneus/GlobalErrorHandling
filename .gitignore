@@ -1,0 +1,50 @@
+*.dll
+*.pdb
+*.suo
+*/code/dbg/*
+*/code/bin/*
+**/obj/*
+**/bin/*
+**/dbg/*
+!**/lib/*
+*.suo.doc
+**/packages/*
+**/.vs/
+**/.vs/*
+*.user
+/src/Warren.Core.Documentation/API/*
+/src/Warren.Core.Intranet/App_Data/*
+/src/Warren.Core.Intranet/Scripts/build/*
+/src/TestResults/*
+/src/TestResults
+/src/Warren.Core.Administration/App_Data
+/src/.idea
+/database/cache/*
+**/node_modules
+**/.vscode
+/src/Warren.Core.userprefs
+/Warren.Core
+coverageResult
+coverage.opencover.xml
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### MicrosoftOffice ###
+*.tmp
+# Word temporary
+~$*.doc*
+# Word Auto Backup File
+Backup of *.doc*
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
+# PowerPoint temporary
+~$*.ppt*
+# Visio autosave temporary files
+*.~vsd*
